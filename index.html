@@ -6,43 +6,188 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" type="image/jpg" href="./images/aliexpress.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/v/dt/dt-1.10.22/datatables.min.css">
+
+  <link rel="shortcut icon" type="image/jpg" href="./images/aliexpress.ico" />
   <link rel="stylesheet" href="style.css">
-  <title>My Project</title>
-  
-  
+  <title>Aliexpress Group Buy</title>
 </head>
 
 <body>
+  <div id="preloader" class="visible"></div>
 
-  <div>
-        <h4>My Project</h4>
+
+
+
+  </table>
   </div>
-<a href="./aliexpress-group-by-light.html" target = "_blank">Aliexpress Group Buy (light mode)</a><br><br>
-<a href="./aliexpress-group-by-full.html" target = "_blank">Aliexpress Group Buy (full mode)</a><br><br><br>
 
-Telegram bot для впорядкування черги Спеціальних Пропозицій<br>
-Telegram bot <a href="http://t.me/SpecialGroupAliBot" target = "_blank">AE Special Group</a><br>
-Google документ <a href="https://docs.google.com/spreadsheets/d/1itxdTzE39RrrE05Ku7rPkrmhO7rfBi-TuwNJNu6OXP8/edit?usp=sharing" target = "_blank">Special Group</a><br><br>
+  <div class="container">
+    <div class="row">
+      <div class=" table-box table-responsive">
+        <h4>Aliexpress Group Buy</h4>
+        <ul>
+          <li>При перегляді на телефоні можливо зручніше буде змінити орієнтацію екрану на горизонтальну (таблицю також
+            можна скролити горизонтально)</li>
+          <li>Для сортування товарів по ціні чи назві потрібно нажати на відповідну вкладку таблиці</li>
+          <li>Якщо з комп'ютера нажати Відкрити товар, то в новій вкладці для зручності можна зменшити розміри вікна товару (або відкрити режим розробника (F12) та зменшити розміри вікна)</li>
+        </ul>
+    
+    <table class="sort-table-product table table-striped table-bordered">
+          <thead class="thead-dark">
+            <tr>
+              <th class="sorting">Фото</th>
+              <th class="sorting">Назва</th>
+              <th class="sorting">Нова ціна, грн</th>
+              <th class="sorting">Стара ціна, грн</th>
+              <th class="sorting">Знижка</th>
+              <th>Відкрити товар</th>
+              <th>Відкрити групу</th>
+            </tr>
+          </thead>
 
-Приблизний розподіл черги учасників по дням.<br>
-<img src="./images/queueday.jpg"> <br>
-Циклічність можливості викупу СП для кожного учасника 1 раз на 4 дні.<br>
-HelpGRP - учасники які дають посилання на створену групу і викупають пропозицію (на 10 годину ранку повинна бути можливість створення СП і допомоги у СП!!!)<br>
-UserHelp - номер учасника кому допомагає користувач (на 10 годину ранку повинна бути можливість допомоги у СП!!!)<br><br><br>
+          <tbody>
+    <tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Sbbd5616eb01a40d599fa5ceb6c2aa7e0h.jpg_300x300.jpg_.webp" alt="product-image"></td>
+<td>SSD 120GB 240GB 480GB 960GB Internal SATA3 Solid State Drive 2.5 128GB 256GB 512GB 1TB 2TB SSD Laptop</td>
+<td>188,74</td>
+<td>565,85</td>
+<td>-66%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004786749783.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004786749783.html?grouponBaseMaterialId=493328&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S0d4afc85b5784288838ea0871cb8d61fZ.jpg_300x300.jpg_.webp" alt="product-image"></td>
+<td>2022 Smart Watch Men Women Full Touch Screen Sport Fitness Watch Man IP67 Waterproof Bluetooth For Android IOS Smartwatch Men</td>
+<td>524,79</td>
+<td>1 405,96</td>
+<td>-62%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004821391141.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004821391141.html?grouponBaseMaterialId=493394&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Scdc0770dfffa46a5a3801bd94185b2abx.jpg_300x300.jpg_.webp" alt="product-image"></td>
+<td>A9 Camera WiFi Wireless Monitoring Camera Remote Monitor Wireless Mini Camera Video Monitoring</td>
+<td>125,45</td>
+<td>362,41</td>
+<td>-65%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004768000264.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004768000264.html?grouponBaseMaterialId=492651&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S33eec229d7fc48a1811c64a09776d5b2r.jpg" alt="product-image"></td>
+<td>Kitchen Oil Bottle Cooking Oil Spray Olive Oil Bottle Fitness Barbecue Spray Oil Dispenser</td>
+<td>111,52</td>
+<td>347,35</td>
+<td>-67%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004446291227.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004446291227.html?grouponBaseMaterialId=492650&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Sf7a17a5e2aa347198240f4629c6a7e4bp.jpg" alt="product-image"></td>
+<td>Stereo P47 Headset 5.0 Bluetooth Headset Folding P Series Wireless Sports Game Headset</td>
+<td>285,94</td>
+<td>718,80</td>
+<td>-60%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004252288328.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004252288328.html?grouponBaseMaterialId=493117&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Sa6a573de84a840d78283b9ee4b160027Z.jpg" alt="product-image"></td>
+<td>WALRAM M.2 SSD 128GB 256GB 512GB 1TB SSD Hard Drive M2 Ssd M.2 NVMe PCIe SSD Internal Hard Disk For Laptop Desktop MSI</td>
+<td>391,80</td>
+<td>1 073,30</td>
+<td>-63%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004896622821.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004896622821.html?grouponBaseMaterialId=492758&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S9a4fa15bd206443d895cd4ef0b987974Z.jpg" alt="product-image"></td>
+<td>Wireless Bluetooth Headset Touch Light Mini High Quality Earplugs Anti-Sweat HD Sound Quality Stereo Universal Headset</td>
+<td>106,24</td>
+<td>334,54</td>
+<td>-68%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004471723536.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004471723536.html?grouponBaseMaterialId=493483&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S2e44ff8c90ae465da5fb2bef067c8a35L.jpg" alt="product-image"></td>
+<td>New M8 Nostalgic Double TV Game Machine Mini Arcade HDMI HD Wireless Handle U Bao Game Machine</td>
+<td>659,28</td>
+<td>1 742,75</td>
+<td>-62%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004776726349.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004776726349.html?grouponBaseMaterialId=492929&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Sf539c585bb244f4a8f644542168c935bJ.jpg" alt="product-image"></td>
+<td>Led Five-Head Headlight Strong Light Super Bright Rechargeable Fishing Lamp Long-Range Head-Mounted Mine Lamp Flashlight</td>
+<td>120,56</td>
+<td>367,69</td>
+<td>-67%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004096923283.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004096923283.html?grouponBaseMaterialId=492634&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S0031b993b186454c9776b7d8bf52e944m.jpg" alt="product-image"></td>
+<td>Original Lenovo XT88 TWS Wireless Earphone Bluetooth 5.3 Dual Stereo Noise Reduction Bass Touch Control Long Standby headset</td>
+<td>322,48</td>
+<td>900,38</td>
+<td>-64%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004866160485.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004866160485.html?grouponBaseMaterialId=492935&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/Sf2cef131b80e4d84ab7ac20df7d2a13de.jpg" alt="product-image"></td>
+<td>Lenovo Original HT38 Bluetooth 5.0 TWS Earphone Wireless Headphones Waterproof Sport Headsets Noise Reduction Earbuds with Mic</td>
+<td>241,11</td>
+<td>696,57</td>
+<td>-65%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004865439082.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004865439082.html?grouponBaseMaterialId=492415&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S15225a633ae74e9a9e962c744fe4afceJ.jpg" alt="product-image"></td>
+<td>EW Headlamp Rechargeable Induction Fishing Light Headlamp</td>
+<td>131,86</td>
+<td>376,73</td>
+<td>-64%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004472281011.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005004472281011.html?grouponBaseMaterialId=493116&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+<tr>
+<td><img class="big-logo-styling" src="https://ae01.alicdn.com/kf/S99b3420ccaee4a2a8b7ff97655f55e58w.jpg" alt="product-image"></td>
+<td>New Strong Changing Light Outdoor Head Lamp Cobled Multi-Function Headlight USB Charging</td>
+<td>125,08</td>
+<td>361,66</td>
+<td>-65%</td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005003609733421.html" target="_blank">Відкрити товар</a></button></td>
+<td><button type="button" class="btn-success btn-md btn"><a href="https://m.aliexpress.com/i/1005003609733421.html?grouponBaseMaterialId=492896&sourceType=580" target="_blank">Відкрити групу</a></button></td>
+</tr>
+
+        </tbody>
+
+        </table>
+        
+    </div>
+    </div>
+  </div>
 
 
-Алгоритм роботи:<br><br>
-При запуску бота, він додає Вас до основної черги користувачів. Якщо немає місця, він додасть Вас у чергу на розширення групи.<br><br>
-Кожного дня (вночі) черга зрушується на кількість HelpGRP учасників. (Тобто HelpGRP учасники переміщаються у кінець списку.)<br><br>
-Зранку HelpGRP учасники отримують повідомлення від бота, що сьогодні їхня черга. У відповідь боту необхідно надати посилання на сворену групу Спеціальних Пропозицій.<br><br>
-О 10:15 (не остаточний час) запускається обробка черги. Усі користувачі отримують повідомлення кому вони сьогодні допомагають.<br><br>
-Після того як Ви допомогли користувачу, необхідно надіслати боту скрін допомоги.<br><br>
-!!! Скрін у вигляді зображення (не файл)!!!<br><br>
+  <button type="button" class="btn btn-danger btn-floating" id="btn-back-to-top">
+    <img src="./images/top.svg" alt="">
+  </button>
 
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/popper.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/datatables.min.js"></script>
 
-
-
+  <script src="./main.js"></script>
+Powered by igor4949i
 </body>
 
 </html>
