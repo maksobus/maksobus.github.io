@@ -841,7 +841,7 @@ _::-webkit-:not(:root:root),
 @media screen and (max-width: 625px) {
   .table-box {
     padding: 2px;
-    
+
   }
 }
 
@@ -872,9 +872,9 @@ button a:active {
   color: white;
 }
 
-@media (max-width: 992px) {
+@media  {
   .container {
-    max-width: 100%;
+    max-width: 80%;
   }
 }
 
