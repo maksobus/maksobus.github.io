@@ -664,7 +664,28 @@ header .navbar-nav > li > a {
 .big-logo-styling {
   max-height: 130px;
   padding: 2px;
+  cursor: pointer;
 }
+
+.big-logo-styling-div:hover .box {
+  display:block;
+  position:absolute;  
+  z-index:2;
+  
+}
+
+.prev {
+  height: 250px;
+}
+
+.box {
+  display: none;
+  height: 270px;
+  background-color: #7653F5;
+  border: 1px solid #ccc;
+  padding: 10px;  
+}
+
 .label-form {
   display: -webkit-box;
   display: -ms-flexbox;
